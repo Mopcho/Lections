@@ -1,0 +1,7 @@
+E:\Lections\Lections\AnonymousTypes\bin\Debug\AnonymousTypes.exe.config
+E:\Lections\Lections\AnonymousTypes\bin\Debug\AnonymousTypes.exe
+E:\Lections\Lections\AnonymousTypes\bin\Debug\AnonymousTypes.pdb
+E:\Lections\Lections\AnonymousTypes\obj\Debug\AnonymousTypes.csprojAssemblyReference.cache
+E:\Lections\Lections\AnonymousTypes\obj\Debug\AnonymousTypes.csproj.CoreCompileInputs.cache
+E:\Lections\Lections\AnonymousTypes\obj\Debug\AnonymousTypes.exe
+E:\Lections\Lections\AnonymousTypes\obj\Debug\AnonymousTypes.pdb

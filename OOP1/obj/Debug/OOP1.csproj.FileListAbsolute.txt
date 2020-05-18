@@ -1,0 +1,7 @@
+E:\Lections\Lections\OOP1\bin\Debug\OOP1.exe.config
+E:\Lections\Lections\OOP1\bin\Debug\OOP1.exe
+E:\Lections\Lections\OOP1\bin\Debug\OOP1.pdb
+E:\Lections\Lections\OOP1\obj\Debug\OOP1.csprojAssemblyReference.cache
+E:\Lections\Lections\OOP1\obj\Debug\OOP1.csproj.CoreCompileInputs.cache
+E:\Lections\Lections\OOP1\obj\Debug\OOP1.exe
+E:\Lections\Lections\OOP1\obj\Debug\OOP1.pdb
