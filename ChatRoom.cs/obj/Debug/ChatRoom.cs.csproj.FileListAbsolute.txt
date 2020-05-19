@@ -1,0 +1,7 @@
+E:\Lections\Lections\ChatRoom.cs\bin\Debug\ChatRoom.cs.exe.config
+E:\Lections\Lections\ChatRoom.cs\bin\Debug\ChatRoom.cs.exe
+E:\Lections\Lections\ChatRoom.cs\bin\Debug\ChatRoom.cs.pdb
+E:\Lections\Lections\ChatRoom.cs\obj\Debug\ChatRoom.cs.csprojAssemblyReference.cache
+E:\Lections\Lections\ChatRoom.cs\obj\Debug\ChatRoom.cs.csproj.CoreCompileInputs.cache
+E:\Lections\Lections\ChatRoom.cs\obj\Debug\ChatRoom.cs.exe
+E:\Lections\Lections\ChatRoom.cs\obj\Debug\ChatRoom.cs.pdb

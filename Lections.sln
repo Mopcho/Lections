@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegates.cs", "MulticastDelegates.cs\MulticastDelegates.cs.csproj", "{5979438E-A039-4200-BA2C-C5627028D986}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.cs", "ChatRoom.cs\ChatRoom.cs.csproj", "{2DDEF6F1-E352-4E53-94BB-081A1143F286}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5979438E-A039-4200-BA2C-C5627028D986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5979438E-A039-4200-BA2C-C5627028D986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5979438E-A039-4200-BA2C-C5627028D986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDEF6F1-E352-4E53-94BB-081A1143F286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDEF6F1-E352-4E53-94BB-081A1143F286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDEF6F1-E352-4E53-94BB-081A1143F286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDEF6F1-E352-4E53-94BB-081A1143F286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
