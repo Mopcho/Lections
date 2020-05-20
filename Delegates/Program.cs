@@ -6,21 +6,26 @@ using System.Threading.Tasks;
 
 namespace Delegates
 {
-    delegate bool Predicate<T>(T value);
+   public delegate bool Predicate<T>(T value, int index);
 
-    class Program
-    {
-      static IEnumerable<T> Filter<T>(IEnumerable<T> numbers, Predicate<T> predicate)
+    
+        public static class IEnumerableExtensions
         {
-            var list = new List<T>();
-
-            foreach (var n in numbers)
+            public static IEnumerable<T> Filter<T>(this IEnumerable<T> numbers, Predicate<T> predicate)
             {
-                if(predicate(n)) {
-                    list.Add(n);
+                var list = new List<T>();
+
+                var index = 0;
+
+                foreach (var n in numbers)
+                {
+                    if (predicate(n,index++))
+                    {
+                        list.Add(n);
+                    }
                 }
+                return list;
             }
-            return list;
         }
 
     //    static bool GreaterThan5(int value)
@@ -28,11 +33,12 @@ namespace Delegates
     //      return value > 5;
     //   }
 
-      //  static bool IsEven(int value)
-      //  {
-      //     return value % 2 == 0;
-      //  }
-
+    //  static bool IsEven(int value)
+    //  {
+    //     return value % 2 == 0;
+    //  }
+    class Program
+    {
         static bool IsPrime(int value)
         {
             var upperbound = Math.Sqrt(value);
@@ -52,22 +58,37 @@ namespace Delegates
         {
             var numbers = new int[] { 1, 2, 20, 13, 15,7,17,33,16 };
 
-            var greater = Filter(numbers, delegate (int value)
-            {
-                return value > 5;
-            });
+            var even =numbers.Filter( (value, index) => value % 2 == 0);
 
-            var even = Filter(numbers, delegate(int value)
-            {
-                return value % 2 == 0;
-            });
+            var words = new string[] { "gosho", "kaun", "dinq", "metla" };
 
-            var prime = Filter(numbers, IsPrime);
+            var shortWords = words.Filter((word, index ) => word.Length <= 4);
 
-            Console.WriteLine(greater.StringJoin());
+            Console.WriteLine(shortWords.StringJoin());
+
             Console.WriteLine(even.StringJoin());
-           // Console.WriteLine(prime.StringJoin());
-            
+            // var even = Filter(numbers, delegate (int value)
+            // {
+            //     return value % 2 == 0;
+            // });
+
+            // var shortWords = Filter(words, delegate (string w)
+            // {
+            //     return w.Length <= 4;
+            // });
+            //var shortWords = Filter(words, word => word.Contains('a'));
+
+            // var greater = Filter(numbers, delegate (int value)
+            //  {
+            //      return value > 5;
+            //  });
+
+            //var prime = Filter(numbers, IsPrime);
+
+            // Console.WriteLine(greater.StringJoin());
+
+            // Console.WriteLine(prime.StringJoin());
+
         }
     }
     public static class GenericExtensions

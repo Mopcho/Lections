@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegates.cs", "Mu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.cs", "ChatRoom.cs\ChatRoom.cs.csproj", "{2DDEF6F1-E352-4E53-94BB-081A1143F286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{05DB4E4A-FF9C-43EA-9F12-04A721492F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{98D4FD01-E4DB-4F45-8E82-17ADE3EB9488}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2DDEF6F1-E352-4E53-94BB-081A1143F286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DDEF6F1-E352-4E53-94BB-081A1143F286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DDEF6F1-E352-4E53-94BB-081A1143F286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DB4E4A-FF9C-43EA-9F12-04A721492F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DB4E4A-FF9C-43EA-9F12-04A721492F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DB4E4A-FF9C-43EA-9F12-04A721492F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DB4E4A-FF9C-43EA-9F12-04A721492F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D4FD01-E4DB-4F45-8E82-17ADE3EB9488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D4FD01-E4DB-4F45-8E82-17ADE3EB9488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D4FD01-E4DB-4F45-8E82-17ADE3EB9488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D4FD01-E4DB-4F45-8E82-17ADE3EB9488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
