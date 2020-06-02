@@ -11,7 +11,9 @@ namespace Tests
     {
         static void Main()
         {
-
+            var math = new Math(1);
+            math.X = -1;
+            Console.WriteLine(math.X); 
         }
     }
 }

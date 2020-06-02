@@ -14,10 +14,12 @@ namespace OOP1
         static void Main(string[] args)
         {
             var numbers = new List<int>() { 1, 2, 5, 10, 33, 66 };
-            // numbers.IncrementAll();
-            //Console.WriteLine(String.Join(", ", numbers));
-            //var n = Console.ReadLine().ToInt32();
+            numbers.IncrementAll();
+            Console.WriteLine(String.Join(", ", numbers));
+            var n = Console.ReadLine().ToInt32();
             Console.WriteLine(numbers.StringJoin());
+            
+            
         }
     }
 }

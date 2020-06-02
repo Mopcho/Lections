@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Tests
 {
-    class InfoTable
+    public class Math
     {
-        public event EventHandler<TestEvenArgs> MessageSend;
-
-
+         public int X { get;set; }
+         public Math(int x)
+         {
+            if (x < 0)
+            {
+                throw new Exception("adfafas");
+            }
+            this.X = x;
+         }
     }
 }
